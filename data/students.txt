@@ -1,0 +1,29 @@
+Student Name: Anu
+ID: ST101
+Roll No: 21IT001
+Blood Group: O+
+Phone Number: 9876543210
+School Name: St. Joseph School
+College Name: CIT
+Internship Status: Completed at TCS
+Placement Status: Placed in Infosys
+
+Student Name: Rahul
+ID: ST102
+Roll No: 21CSE002
+Blood Group: B+
+Phone Number: 9123456780
+School Name: ABC Matric School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Meena
+ID: ST103
+Roll No: 21IT003
+Blood Group: A+
+Phone Number: 9988776655
+School Name: Green Valley School
+College Name: CIT
+Internship Status: Completed at Wipro
+Placement Status: Placed in Wipro
