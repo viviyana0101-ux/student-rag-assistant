@@ -21,7 +21,7 @@ def home():
             if top_score < 0.3:
                 answer = "I don't know. No relevant content found."
             else:
-                context = [text for text, score in results]
+                context = [text for text, score in results if score >0.4]
                 answer = generate_answer(query, context)
 
     return render_template("index.html", answer=answer)

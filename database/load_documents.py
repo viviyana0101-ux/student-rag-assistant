@@ -1,6 +1,7 @@
 import os
 import sqlite3
 import pickle
+import re
 from core.embeddings import get_embedding
 
 def load_documents():
@@ -20,12 +21,17 @@ def load_documents():
             with open(filepath, "r", encoding="utf-8") as file:
                 content = file.read()
 
-            title = filename.replace(".txt", "")
+            # Split using "Student Name:" pattern
+            students = re.split(r"\n(?=Student Name:)", content)
 
-            cursor.execute(
-                "INSERT INTO documents (title, content) VALUES (?, ?)",
-                (title, content)
-            )
+            for student in students:
+                if student.strip() == "":
+                    continue
+
+                cursor.execute(
+                    "INSERT INTO documents (title, content) VALUES (?, ?)",
+                    ("student_record", student.strip())
+                )
 
     conn.commit()
 

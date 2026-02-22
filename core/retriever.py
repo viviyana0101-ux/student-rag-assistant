@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 from core.embeddings import get_embedding
 
-def semantic_search(query, top_k=3):
+def semantic_search(query, top_k=30):
     conn = sqlite3.connect("student.db")
     cursor = conn.cursor()
 

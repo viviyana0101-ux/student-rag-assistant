@@ -22,7 +22,8 @@ Answer:
 
     response = ollama.chat(
         model="mistral",
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
+        options={"num_gpu": 0}
     )
 
     return response["message"]["content"]

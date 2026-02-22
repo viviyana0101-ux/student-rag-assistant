@@ -3,6 +3,7 @@ import ollama
 def get_embedding(text):
     response = ollama.embeddings(
         model="nomic-embed-text",
-        prompt=text
+        prompt=text,
+        options={"num_gpu": 0}
     )
     return response["embedding"]
