@@ -1,34 +1,31 @@
+from flask import Flask, render_template, request
 from core.retriever import semantic_search
 from core.llm import generate_answer
 
-def main():
-    print("Student AI Assistant")
-    print("Type 'exit' to quit\n")
+app = Flask(__name__)
 
-    while True:
-        query = input("Ask: ")
+@app.route("/", methods=["GET", "POST"])
+def home():
+    answer = None
 
-        if query.lower() == "exit":
-            break
+    if request.method == "POST":
+        query = request.form["question"]
 
         results = semantic_search(query)
 
         if not results:
-            print("I don't know. No relevant content found.\n")
-            continue
+            answer = "I don't know. No relevant content found."
+        else:
+            top_score = results[0][1]
 
-        top_score = results[0][1]
+            if top_score < 0.3:
+                answer = "I don't know. No relevant content found."
+            else:
+                context = [text for text, score in results]
+                answer = generate_answer(query, context)
 
-        # Confidence threshold
-        if top_score < 0.3:
-            print("I don't know. No relevant content found.\n")
-            continue
+    return render_template("index.html", answer=answer)
 
-        context = [text for text, score in results]
-
-        answer = generate_answer(query, context)
-
-        print("\n", answer, "\n")
 
 if __name__ == "__main__":
-    main()
+    app.run(debug=True)

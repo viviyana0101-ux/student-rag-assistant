@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student AI Assistant</title>
+</head>
+<body>
+    <h2>Student AI Assistant</h2>
+
+    <form method="POST">
+        <input type="text" name="question" placeholder="Ask your question" size="60" required>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if answer %}
+        <h3>Answer:</h3>
+        <p>{{ answer }}</p>
+    {% endif %}
+</body>
+</html>

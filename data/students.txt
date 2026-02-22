@@ -27,3 +27,273 @@ School Name: Green Valley School
 College Name: CIT
 Internship Status: Completed at Wipro
 Placement Status: Placed in Wipro
+
+Student Name: Karthik
+ID: ST104
+Roll No: 21ECE004
+Blood Group: AB+
+Phone Number: 9012345678
+School Name: National School
+College Name: CIT
+Internship Status: Completed at Cognizant
+Placement Status: Placed in Cognizant
+
+Student Name: Priya
+ID: ST105
+Roll No: 21IT005
+Blood Group: O-
+Phone Number: 8899001122
+School Name: Sunrise School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Arjun
+ID: ST106
+Roll No: 21CSE006
+Blood Group: A-
+Phone Number: 9988007766
+School Name: Modern Public School
+College Name: CIT
+Internship Status: Completed at Zoho
+Placement Status: Placed in Zoho
+
+Student Name: Divya
+ID: ST107
+Roll No: 21ECE007
+Blood Group: B-
+Phone Number: 8877665544
+School Name: Bright Matric School
+College Name: CIT
+Internship Status: Completed at HCL
+Placement Status: Placed in HCL
+
+Student Name: Sanjay
+ID: ST108
+Roll No: 21IT008
+Blood Group: O+
+Phone Number: 7766554433
+School Name: Oxford School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Nisha
+ID: ST109
+Roll No: 21CSE009
+Blood Group: A+
+Phone Number: 6655443322
+School Name: Greenfield School
+College Name: CIT
+Internship Status: Completed at IBM
+Placement Status: Placed in IBM
+
+Student Name: Vignesh
+ID: ST110
+Roll No: 21ECE010
+Blood Group: B+
+Phone Number: 5544332211
+School Name: St. Mary School
+College Name: CIT
+Internship Status: Completed at Accenture
+Placement Status: Placed in Accenture
+
+Student Name: Keerthi
+ID: ST111
+Roll No: 21IT011
+Blood Group: AB-
+Phone Number: 9432108765
+School Name: Victory School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Manoj
+ID: ST112
+Roll No: 21CSE012
+Blood Group: O+
+Phone Number: 9321876543
+School Name: City High School
+College Name: CIT
+Internship Status: Completed at TCS
+Placement Status: Placed in TCS
+
+Student Name: Harini
+ID: ST113
+Roll No: 21ECE013
+Blood Group: A+
+Phone Number: 9212345678
+School Name: Elite School
+College Name: CIT
+Internship Status: Completed at Wipro
+Placement Status: Placed in Wipro
+
+Student Name: Ajay
+ID: ST114
+Roll No: 21IT014
+Blood Group: B+
+Phone Number: 9109876543
+School Name: Scholars School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Sneha
+ID: ST115
+Roll No: 21CSE015
+Blood Group: O-
+Phone Number: 9098765432
+School Name: Hill View School
+College Name: CIT
+Internship Status: Completed at Infosys
+Placement Status: Placed in Infosys
+
+Student Name: Deepak
+ID: ST116
+Roll No: 21ECE016
+Blood Group: A-
+Phone Number: 8987654321
+School Name: Lotus School
+College Name: CIT
+Internship Status: Completed at HCL
+Placement Status: Placed in HCL
+
+Student Name: Gayathri
+ID: ST117
+Roll No: 21IT017
+Blood Group: B-
+Phone Number: 8876543210
+School Name: Wisdom School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Rohit
+ID: ST118
+Roll No: 21CSE018
+Blood Group: AB+
+Phone Number: 8765432109
+School Name: Cambridge School
+College Name: CIT
+Internship Status: Completed at Amazon
+Placement Status: Placed in Amazon
+
+Student Name: Kavya
+ID: ST119
+Roll No: 21ECE019
+Blood Group: O+
+Phone Number: 8654321098
+School Name: Holy Cross School
+College Name: CIT
+Internship Status: Completed at Capgemini
+Placement Status: Placed in Capgemini
+
+Student Name: Surya
+ID: ST120
+Roll No: 21IT020
+Blood Group: A+
+Phone Number: 8543210987
+School Name: Global School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Lakshmi
+ID: ST121
+Roll No: 21CSE021
+Blood Group: B+
+Phone Number: 8432109876
+School Name: Oxford Matric
+College Name: CIT
+Internship Status: Completed at Dell
+Placement Status: Placed in Dell
+
+Student Name: Prakash
+ID: ST122
+Roll No: 21ECE022
+Blood Group: O-
+Phone Number: 8321098765
+School Name: Silver Oak School
+College Name: CIT
+Internship Status: Completed at IBM
+Placement Status: Placed in IBM
+
+Student Name: Anitha
+ID: ST123
+Roll No: 21IT023
+Blood Group: AB+
+Phone Number: 8210987654
+School Name: Crescent School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Naveen
+ID: ST124
+Roll No: 21CSE024
+Blood Group: A-
+Phone Number: 8109876543
+School Name: Pioneer School
+College Name: CIT
+Internship Status: Completed at Zoho
+Placement Status: Placed in Zoho
+
+Student Name: Swathi
+ID: ST125
+Roll No: 21ECE025
+Blood Group: B+
+Phone Number: 8098765432
+School Name: Meridian School
+College Name: CIT
+Internship Status: Completed at TCS
+Placement Status: Placed in TCS
+
+Student Name: Harish
+ID: ST126
+Roll No: 21IT026
+Blood Group: O+
+Phone Number: 7987654321
+School Name: Eden School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Pooja
+ID: ST127
+Roll No: 21CSE027
+Blood Group: A+
+Phone Number: 7876543210
+School Name: Sunrise Public School
+College Name: CIT
+Internship Status: Completed at Accenture
+Placement Status: Placed in Accenture
+
+Student Name: Vijay
+ID: ST128
+Roll No: 21ECE028
+Blood Group: AB-
+Phone Number: 7765432109
+School Name: Modern School
+College Name: CIT
+Internship Status: Completed at Wipro
+Placement Status: Placed in Wipro
+
+Student Name: Riya
+ID: ST129
+Roll No: 21IT029
+Blood Group: B-
+Phone Number: 7654321098
+School Name: Harmony School
+College Name: CIT
+Internship Status: Not Completed
+Placement Status: Not Placed
+
+Student Name: Gokul
+ID: ST130
+Roll No: 21CSE030
+Blood Group: O+
+Phone Number: 7543210987
+School Name: St. Xavier School
+College Name: CIT
+Internship Status: Completed at Infosys
+Placement Status: Placed in Infosys
